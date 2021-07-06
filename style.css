@@ -32,3 +32,10 @@ h1{
     display: flex;
     background-image: url(images/bac.jpg);
 }
+h2{
+    color: gray;
+    text-align: center;
+}
+.new-add{
+    text-align: center;
+}
