@@ -1,3 +1,14 @@
+.design{
+    font-size: xx-large;
+    text-align: center;
+    font-weight:900;
+    background-image: linear-gradient(blue,orange);
+    padding: 40px;
+    border-radius: 120px;
+}
+.last{
+    color:deeppink;
+}
 .orange{
     color: orange;
 }
@@ -38,4 +49,61 @@ h2{
 }
 .new-add{
     text-align: center;
+}
+.add-image{
+    display: flex;
+    width:100%;
+   
+}
+.add-image img{
+    width: 100%;
+    padding: 0%;
+}
+.mango{
+    width: 27.33%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 60px;
+}
+.mango img{
+    border-radius: 60px;
+}
+.peyara{
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 60px;
+
+}
+h4{
+    text-align: center;
+}
+.section4{
+    text-align: center;
+    background-color:rgba(12, 11, 11, 0.568);
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 200px;
+    color: wheat;
+    width: 100%;
+    margin-top: 50px;
+}
+.pakna{
+    font-size: x-large;
+    color: lightyellow;
+}
+.panda{
+    font-size: small;
+    color: violet;
+}
+.killa{
+    font-size: x-large;
+    color: yellow;
 }
