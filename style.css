@@ -1,8 +1,51 @@
+.TheWoman{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+body{
+    background-image: url(images/pic-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.section1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    
+}
+
+.manImage{
+    height: 600px;
+}
+.ImagesGrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px;
+}
+/* .ImagesGridBorder{
+    border: 5px solid goldenrod;
+} */
+.womanStyle{
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ImagesGridBorderImage{
+    border-bottom: 5px solid aqua;
+    align-content: center;
+}
+
+
+
 .design{
     font-size: xx-large;
     text-align: center;
     font-weight:900;
-    background-image: linear-gradient(blue,orange);
     padding: 40px;
     border-radius: 120px;
 }
@@ -18,9 +61,8 @@ body{
 h1{
     font-size: 85px;
 }
-.section1{
-     display: flex;
-}
+
+
 .half-width{
     width: 50% ;
     padding-left: 6%;
@@ -40,7 +82,9 @@ h1{
     font-size: larger;
 }
 .section2{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5px;
     background-image: url(images/bac.jpg);
 }
 h2{
@@ -50,15 +94,8 @@ h2{
 .new-add{
     text-align: center;
 }
-.add-image{
-    display: flex;
-    width:100%;
-   
-}
-.add-image img{
-    width: 100%;
-    padding: 0%;
-}
+
+
 .mango{
     width: 27.33%;
     margin-left: 3%;
@@ -106,4 +143,33 @@ h4{
 .killa{
     font-size: x-large;
     color: yellow;
+}
+
+/* @media only screen and (max-width:688px) {
+    .section2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 5px;
+        background-image: none;
+    }
+    .womanStyle img{
+        height: 400px;
+        margin-top: 300px;
+        margin-right: 150px;
+
+    }
+    .add-image{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+        width:100%;
+        margin-right: 0px;
+       
+    }
+} */
+@media only screen and (min-width:689px) and (max-width:1700px){
+    .containers{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
 }

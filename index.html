@@ -10,62 +10,89 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="design">
         <p>WELCOME TO <span class="last">GOOD FOOD</span></p>
     </div>
-    <section class="section1">
-        <div class="half-width">
-            <h1><span class="orange">Skip </span>The Diet, </h1>
-            <h1>Just Eat healthy<br> With Good Food</h1>
-            <h3>Don't say adulterated food, go with Good food</h3>
-            </p><br>
-            <br>
-            <a class="order-food" target="_blank" href="https://web.facebook.com/forhadulislam.fahim.756/">Order
-                Food</a>
+    <div class="section1 container">
+        <div>
+            <h1><span class="orange">Skip </span>
+                <h1 class="text-white">The Diet,
+                    Just Eat healthy With Good Food</h1>
+                <h3>Don't say adulterated food, go with Good food</h3>
+                </p><br>
+                <button class="order-food">Order food</button>
+
         </div>
-        <div class="half-width"><img src="images/man.jpg" alt=""></div>
-    </section>
-    <section class="section2">
-        <div class="half-width">
-            <img src="images/woman.png" alt="">
+        <div>
+            <img class="manImage" src="images/man.png" alt="">
         </div>
-        <div class="half-width">
-            <h1>About Me</h1>
-            <h3>I am Forhadul islam Fahim.I can cook many kinds of food.At KFC you will find all the fresh food that is
+    </div>
+    <!-- About me -->
+    <div class="TheWoman container mt-5 pt-5">
+        <div class="ImagesGridBorderImage">
+            <img class="womanStyle" src="images/woman.png" alt="">
+        </div>
+        <div class="ImagesGridBorder">
+            <h1 class="fw-bold text-center">About Me</h1>
+            <p class="fw-bold">I am Forhadul islam Fahim.I can cook many kinds of food.At KFC you will find all the
+                fresh food that is
                 not harmful to human body.No more formalin foods.I have been awarded many prizes for cooking.One of my
-                dishes is biryani, noodles, pizza.</h3><br>
+                dishes is biryani, noodles, pizza.</p><br>
             <br>
-            <a class="order-food" target="_blank" href="https://web.facebook.com/forhadulislam.fahim.756/">Contact
-                Me</a>
+            <button class="order-food">Contact Me</button>
+
         </div>
-    </section><br>
+    </div>
     <br>
     <h2>OUR FOODS</h2>
     <p class="new-add">Chicken Biryani,pizza and Noodles are usually found in our Good food.<br>
         Good Food was founded about 20 years ago today and is doing business with a reputation</p>
-    <section class="add-image">
-        <div class="mango">
-            <img src="images/pixxa.jpg" alt="">
-            <h2>pic:-PIZZA</h2>
-            <h3>Plan ahead. Make the dough at least a day before you intend to make pizza, to give it enough time to
-                rise.</h3>
+    <!-- added image -->
+    <section class="container ImagesGrid">
+
+        <div class="ImagesGridBorder">
+            <div class="">
+                <img src="images/pixxa.jpg" class="card-img-top" alt="...">
+            </div>
+            <div>
+                <h2>pic:-PIZZA</h2>
+                <p class="">Plan ahead. Make the dough at least a day before you intend to make pizza,
+                    to give it enough time to
+                    rise.
+                </p>
+            </div>
         </div>
-        <div class="mango">
-            <img src="images/nodols.jpg" alt="">
-            <h2>pic:-NOODLES</h2>
-            <h3>Slippery Lo Mein Noodles tossed in a Lo Mein Sauce with tons of veggies and protein of your choice.
-                Takeout gold standard comes down to the right sauce and the right noodles – then you’re just 6 minutes
-                away from noodle heaven!</h3>
+
+        <div class="ImagesGridBorder">
+            <div class="">
+                <img src="images/nodols.jpg" class="card-img-top" alt="...">
+            </div>
+            <div>
+                <h2>pic:-NOODLES</h2>
+                <p class="">Slippery Lo Mein Noodles tossed in a Lo Mein Sauce with tons of veggies and
+                    protein of your choice.
+                    Takeout gold standard comes down to the right sauce and the right noodles – then you’re just
+                    6 minutes
+                    away from noodle heaven!
+                </p>
+            </div>
         </div>
-        <div class="mango">
-            <img src="images/biriany.jpg" alt="">
-            <h2>pic:-BIRIANY</h2>
-            <h3>Khasi meat should be washed well and marinated in normal fridge for six hours with water, adabata,
-                rasunbata, chilli powder, cardamom powder, nutmeg-jaytri powder, </h3>
+        <div class="ImagesGridBorder">
+            <div class="">
+                <img src="images/biriany.jpg" class="card-img-top" alt="...">
+            </div>
+            <div>
+                <p class="">Khasi meat should be washed well and marinated in normal fridge for six
+                    hours with water, adabata,
+                    rasunbata, chilli powder, cardamom powder, nutmeg-jaytri powder </p>
+            </div>
         </div>
+
     </section>
 
     <section class="section4">
@@ -74,6 +101,11 @@
                 healthy to live happy.</span></footer>
 
     </section>
+
+    <!-- Script-Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
